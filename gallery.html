@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>Галерея | INTANSIFY</title>
+  <link
+    rel="preload"
+    href="fonts/Montserrat-SemiBold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Regular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Medium.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Thin.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Black.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Montserrat-Light.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header fixed-block">
+  <div class="container header__content">
+    <a href="/" class="logo">
+      <img
+        src="img/logo.png"
+        alt="logo"
+        width="182"
+        height="42"
+        class="img-contain" />
+    </a>
+    <nav class="nav">
+      <ul class="list-reset nav__list">
+        <li class="nav__item">
+          <a href="index.html#features" class="nav__link">FEATURES</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#pricing" class="nav__link">PRICING</a>
+        </li>
+        <li class="nav__item">
+          <a href="gallery.html" class="nav__link">GALLERY</a>
+        </li>
+        <li class="nav__item">
+          <a href="articles.html" class="nav__link">ARTICLES</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#faq" class="nav__link">FAQ</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link a-scroll">CONTACTS</a>
+        </li>
+        <li class="nav__item">
+          <a href="#map" class="nav__link a-scroll">MAP</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav__back"></div>
+    <a href="tel:(818)8565769" class="phone">
+      <span>(818) 856 57 69</span>
+      <svg>
+        <use xlink:href="img/sprite.svg#phone"></use>
+      </svg>
+    </a>
+    <button
+      data-popupId="popupBookNow"
+      class="btn-reset bookNowBtn popup__link">
+      BOOK NOW
+    </button>
+    <button class="btn-reset burger">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="galleryFull">
+          <div class="container galleryFull__container">
+            <h2 class="gallery__title">Gallery</h2>
+            <div class="gallery__content _anim-items _anim-no-hide">
+              <div class="gallery__column _big">
+                <div
+                  data-src="img/gallery01.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery01.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery01.png"
+                      class="img-contain"
+                      width="334"
+                      height="477"
+                      alt="girls" />
+                  </picture>
+                </div>
+                <div
+                  data-src="img/gallery02.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery02.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery02.png"
+                      class="img-contain"
+                      width="334"
+                      height="400"
+                      alt="girls" />
+                  </picture>
+                </div>
+              </div>
+              <div class="gallery__column _small">
+                <div
+                  data-src="img/gallery03.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery03.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery03.png"
+                      class="img-contain"
+                      width="257"
+                      height="346"
+                      alt="girls" />
+                  </picture>
+                </div>
+                <div
+                  data-src="img/gallery04.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery04.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery04.png"
+                      class="img-contain"
+                      width="257"
+                      height="347"
+                      alt="girls" />
+                  </picture>
+                </div>
+              </div>
+              <div class="gallery__column _middle">
+                <div
+                  data-src="img/gallery05.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery05.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery05.png"
+                      class="img-contain"
+                      width="330"
+                      height="446"
+                      alt="girls" />
+                  </picture>
+                </div>
+                <div
+                  data-src="img/gallery06.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery06.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery06.png"
+                      class="img-contain"
+                      width="330"
+                      height="370"
+                      alt="girls" />
+                  </picture>
+                </div>
+              </div>
+              <div class="gallery__column _big">
+                <div
+                  data-src="img/gallery07.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery07.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery07.png"
+                      class="img-contain"
+                      width="334"
+                      height="450"
+                      alt="girls" />
+                  </picture>
+                </div>
+                <div
+                  data-src="img/gallery08.png"
+                  class="gallery__item"
+                  data-fancybox="gallery">
+                  <picture>
+                    <source srcset="img/gallery08.webp" type="image/webp" />
+                    <img
+                      loading="lazy"
+                      src="img/gallery08.png"
+                      class="img-contain"
+                      width="334"
+                      height="306"
+                      alt="girls" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="gallery__line">
+              <h2 class="gallery__label">A Flawless Finish Every Time</h2>
+              <p class="gallery__text">
+                Are you ready to achieve a flawless, sun-kissed complexion
+                without the harmful effects of UV rays? Our professional spray
+                tan services are here to transform your skin with a natural,
+                bronzed radiance.
+              </p>
+            </div>
+            <div class="gallery__list">
+              <div
+                data-src="img/gallery11.png"
+                class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery11.webp" type="image/webp" />
+                  <img
+                    loading="lazy"
+                    src="img/gallery11.png"
+                    class="img-cover"
+                    width="331"
+                    height="331"
+                    alt="girls" />
+                </picture>
+              </div>
+              <div
+                data-src="img/gallery12.png"
+                class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery12.webp" type="image/webp" />
+                  <img loading="lazy" src="img/gallery12.png" class="img-cover" width="331" height="331" alt="girls" />
+                </picture>
+              </div>
+              <div data-src="img/gallery13.png" class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery13.webp" type="image/webp" />
+                  <img loading="lazy" src="img/gallery13.png" class="img-cover"
+                    width="331"
+                    height="331"
+                    alt="girls" />
+                </picture>
+              </div>
+              <div
+                data-src="img/gallery14.png"
+                class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery14.webp" type="image/webp" />
+                  <img
+                    loading="lazy"
+                    src="img/gallery14.png"
+                    class="img-cover"
+                    width="331"
+                    height="331"
+                    alt="girls" />
+                </picture>
+              </div>
+              <div
+                data-src="img/gallery11.png"
+                class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery11.webp" type="image/webp" />
+                  <img
+                    loading="lazy"
+                    src="img/gallery11.png"
+                    class="img-cover"
+                    width="331"
+                    height="331"
+                    alt="girls" />
+                </picture>
+              </div>
+              <div
+                data-src="img/gallery12.png"
+                class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery12.webp" type="image/webp" />
+                  <img loading="lazy" src="img/gallery12.png" class="img-cover" width="331" height="331" alt="girls" />
+                </picture>
+              </div>
+              <div data-src="img/gallery13.png" class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery13.webp" type="image/webp" />
+                  <img loading="lazy" src="img/gallery13.png" class="img-cover"
+                    width="331"
+                    height="331"
+                    alt="girls" />
+                </picture>
+              </div>
+              <div
+                data-src="img/gallery14.png"
+                class="gallery__item"
+                data-fancybox="galleryAll">
+                <picture>
+                  <source srcset="img/gallery14.webp" type="image/webp" />
+                  <img
+                    loading="lazy"
+                    src="img/gallery14.png"
+                    class="img-cover"
+                    width="331"
+                    height="331"
+                    alt="girls" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id='contact' class="contact">
+  <div class="contact__img">
+    <picture>
+      <source srcset="img/contactOther.webp" type="image/webp" />
+      <img
+        loading="lazy"
+        src="img/contactOther.png"
+        width="1600"
+        height="560"
+        alt="contact" />
+    </picture>
+  </div>
+  <div class="container contact__container">
+    <h2 class="title contact__title">Contact us</h2>
+    <div class="contact__form">
+      <button
+        data-popupId="popupBookNow"
+        class="btn-reset contact__btn popup__link">
+        Feedback
+      </button>
+      <form class="form">
+        <div class="form__item">
+          <input type="text" class="input" placeholder="Name" />
+        </div>
+        <div class="form__item">
+          <input type="text" class="input __tel" placeholder="Phone" />
+        </div>
+        <div class="form__item">
+          <input type="text" class="input" placeholder="Zip adress" />
+        </div>
+        <div class="form__item">
+          <button data-popupId="popupRequset" class="btn-reset form__btn">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+        <section id='map' class="location">
+  <div class="container location__container">
+    <div class="location__left">
+      <picture>
+        <source srcset="img/location.webp" type="image/webp" />
+        <img
+          loading="lazy"
+          src="img/location.png"
+          class="img-contain"
+          width="560"
+          height="560"
+          alt="los angeles" />
+      </picture>
+    </div>
+    <div class="location__right">
+      <div class="location__header">
+        <svg class="location__ico">
+          <use xlink:href="img/sprite.svg#local"></use>
+        </svg>
+        <p class="location__text">
+          Please note that our map is approximate, please contact us for the
+          exact info and pricing. All area prices are approximate. Please
+          contact us for the exact pricing. We provide mobile tanning services
+          in all major LA areas:
+        </p>
+      </div>
+      <div class="location__lists">
+        <ul class="list-reset location__list">
+          <li class="location__item">Beverly Hills</li>
+          <li class="location__item">Beverly wood</li>
+          <li class="location__item">Calabasas</li>
+          <li class="location__item">Culver City</li>
+          <li class="location__item">Malibu</li>
+          <li class="location__item">Marina del Rey</li>
+          <li class="location__item">Miracle mile</li>
+          <li class="location__item">Pacific Palisades</li>
+          <li class="location__item">Santa Monica</li>
+        </ul>
+        <ul class="list-reset location__list">
+          <li class="location__item">Sherman Oaks</li>
+          <li class="location__item">Studio City</li>
+          <li class="location__item">Venice</li>
+          <li class="location__item">Bel Air</li>
+          <li class="location__item">Brentwood</li>
+          <li class="location__item">Hollywood</li>
+          <li class="location__item">Mar Vista</li>
+          <li class="location__item">Pico — Robertson</li>
+          <li class="location__item">Westwood</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer _anim-items">
+  <div class="container footer__container">
+    <a href="/" class="logo">
+      <img
+        src="img/logoTransparent.png"
+        alt="logo"
+        width="182"
+        height="42"
+        class="img-contain" />
+    </a>
+    <nav class="footer__nav">
+      <ul class="list-reset footer__nav__list">
+        <li class="footer__nav__item">
+          <a href="index.html#features" class="footer__nav__link">FEATURES</a>
+        </li>
+        <li class="footer__nav__item">
+          <a href="index.html#pricing" class="footer__nav__link">PRICING</a>
+        </li>
+        <li class="footer__nav__item">
+          <a href="gallery.html" class="footer__nav__link">GALLERY</a>
+        </li>
+        <li class="footer__nav__item">
+          <a href="articles.html" class="footer__nav__link">ARTICLES</a>
+        </li>
+        <li class="footer__nav__item">
+          <a href="idnex.html#faq" class="footer__nav__link">FAQ</a>
+        </li>
+        <li class="footer__nav__item">
+          <a href="#contact" class="footer__nav__link a-scroll">CONTACTS</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer__contact">
+      <div class="footer__phone">
+        <span>Phone: </span>
+        <a href="tel:(818)8565769">(818) 856 57 69</a>
+      </div>
+      <div class="footer__socials">
+        <span>OUR SOCIAL: </span>
+        <a href="#">
+          <svg class="inst">
+            <use xlink:href="img/sprite.svg#inst"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="facebook">
+            <use xlink:href="img/sprite.svg#facebook"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="floce">
+            <use xlink:href="img/sprite.svg#floce"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer__designer">Made by <span>SOMA design</span></div>
+  </div>
+</footer>
+ <div id="popupSale" class="popup popupSale">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button class="btn-reset close__popup"></button>
+      <span class="popupSale__title">Super spring discount</span>
+      <p class="popupSale__text">Discount —<span>30%</span></p>
+      <button
+        data-popupId="popupBookNow"
+        class="btn-reset popupSale__btn popup__link"
+      >
+        Book now
+      </button>
+    </div>
+  </div>
+</div>
+
+      <div id="popupBookNow" class="popup popupBookNow">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button class="btn-reset close__popup"></button>
+      <span class="popupBookNow__title">Book now</span>
+      <div class="popupBookNow__form">
+        <form class="form">
+          <div class="form__item">
+            <input type="text" class="input" placeholder="Name" />
+          </div>
+          <div class="form__item">
+            <input type="text" class="input __tel" placeholder="Phone" />
+          </div>
+          <div class="form__item">
+            <input type="text" class="input" placeholder="Zip adress" />
+          </div>
+          <div class="form__item">
+            <button data-popupId="popupRequset" class="btn-reset form__btn">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div id="popupRequset" class="popup popupBookNow">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button class="btn-reset close__popup"></button>
+      <span class="popupBookNow__text">Your request has been received</span>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>
