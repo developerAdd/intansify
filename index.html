@@ -82,10 +82,10 @@
           <a href="#pricing" class="nav__link a-scroll">PRICING</a>
         </li>
         <li class="nav__item">
-          <a href="#gallery" class="nav__link a-scroll">GALLERY</a>
+          <a href="gallery.html" class="nav__link">GALLERY</a>
         </li>
         <li class="nav__item">
-          <a href="#articles" class="nav__link a-scroll">ARTICLES</a>
+          <a href="articles.html" class="nav__link a-scroll">ARTICLES</a>
         </li>
         <li class="nav__item">
           <a href="#faq" class="nav__link a-scroll">FAQ</a>
@@ -129,8 +129,7 @@
         class="img-cover"
         width="1728"
         height="937"
-        alt="women"
-      />
+        alt="women" />
     </picture>
   </div>
   <div class="container hero__container">
@@ -148,7 +147,7 @@
     <div class="hero__action">
       <button class="btn-reset hero__btn">BOOK SERVICE</button>
       <div class="hero__yelp">
-        <img src="img/yelp.png" width="134" height="111" alt="yelp" />
+        <img src="img/yelp.png" width="134" height="111" alt="yelp" class='img-contain' />
       </div>
     </div>
   </div>
@@ -564,6 +563,7 @@
     <div class="articles__content">
       <div class="articles__main">
         <a href='article.html' class="articlePoster">
+          <div class="articlePoster__hover"></div>
           <span class="articlePoster__name">SPRAY TANS + PHOTOSHOOT (secret benefits of sunless)</span>
           <div class="viewAll">
             <span class="viewAll__ico">
@@ -665,14 +665,6 @@
   <div class="container faq__container">
     <div class="faq__header">
       <h2 class="title faq__title">FAQ</h2>
-      <a href="#" class="viewAll">
-        <span class="viewAll__ico">
-          <svg>
-            <use xlink:href="img/sprite.svg#arrow"></use>
-          </svg>
-        </span>
-        <span class="viewAll__text">View all faq`s</span>
-      </a>
     </div>
     <div class="faq__content _anim-items _anim-no-hide">
       <div class="faq__item">
@@ -768,7 +760,7 @@
     <div class="faq__bottom">
       <span class="faq__description">Have some questions?</span>
       <button
-        data-popupId="popupBookNow"
+        data-popupId="popupAsk"
         class="btn-reset faq__btn popup__link">
         Ask a question
       </button>
@@ -796,14 +788,16 @@
         Feedback
       </button>
       <form class="form">
-        <div class="form__item">
-          <input type="text" class="input" placeholder="Name" />
+        <div class="form__item ">
+          <input type="text" class="input" placeholder="Name" required />
+          <span class="input__required"></span>
+        </div>
+        <div class="form__item ">
+          <input type="text" class="input __tel" placeholder="Phone" required />
+          <span class="input__required"></span>
         </div>
         <div class="form__item">
-          <input type="text" class="input __tel" placeholder="Phone" />
-        </div>
-        <div class="form__item">
-          <input type="text" class="input" placeholder="Zip adress" />
+          <input type="text" class="input" placeholder="ZIP" />
         </div>
         <div class="form__item">
           <button data-popupId="popupRequset" class="btn-reset form__btn">
@@ -926,7 +920,7 @@
               </a>
             </div>
           </div>
-          <div class="footer__designer">Made by <span>SOMA design</span></div>
+          <div class="footer__designer">Made by <a href='#'>SOMA design</span></a>
         </div>
       </footer>
 
@@ -953,14 +947,16 @@
       <span class="popupBookNow__title">Book now</span>
       <div class="popupBookNow__form">
         <form class="form">
-          <div class="form__item">
-            <input type="text" class="input" placeholder="Name" />
+          <div class="form__item ">
+            <input type="text" class="input" placeholder="Name" required />
+            <span class="input__required"></span>
+          </div>
+          <div class="form__item ">
+            <input type="text" class="input __tel" placeholder="Phone" required />
+            <span class="input__required"></span>
           </div>
           <div class="form__item">
-            <input type="text" class="input __tel" placeholder="Phone" />
-          </div>
-          <div class="form__item">
-            <input type="text" class="input" placeholder="Zip adress" />
+            <input type="text" class="input" placeholder="ZIP" />
           </div>
           <div class="form__item">
             <button data-popupId="popupRequset" class="btn-reset form__btn">
@@ -978,6 +974,36 @@
     <div class="popup__content">
       <button class="btn-reset close__popup"></button>
       <span class="popupBookNow__text">Your request has been received</span>
+    </div>
+  </div>
+</div>
+
+      <div id="popupAsk" class="popup popupBookNow">
+  <div class="popup__body">
+    <div class="popup__content">
+      <button class="btn-reset close__popup"></button>
+      <span class="popupBookNow__title">ASK A QUESTION</span>
+      <div class="popupBookNow__form">
+        <form class="form">
+          <div class="form__item ">
+            <input type="text" class="input" placeholder="Name" required />
+            <span class="input__required"></span>
+          </div>
+          <div class="form__item ">
+            <input type="text" class="input __tel" placeholder="Phone" required />
+            <span class="input__required"></span>
+          </div>
+          <div class="form__item ">
+            <input type="text" class="input" placeholder="Your question" required />
+            <span class="input__required"></span>
+          </div>
+          <div class="form__item">
+            <button data-popupId="popupRequset" class="btn-reset form__btn">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>

@@ -65,7 +65,7 @@
         <div class="site-container">
             <header class="header fixed-block">
   <div class="container header__content">
-    <a href="index.html" class="logo">
+    <a href="/" class="logo">
       <img
         src="img/logo.png"
         alt="logo"
@@ -124,6 +124,7 @@
                         <h1 class="articlesFull__title">Articles</h1>
                         <div class="articles__main">
                             <a href='article.html' class="articlePoster">
+                                <div class="articlePoster__hover"></div>
                                 <span class="articlePoster__name">SPRAY TANS + PHOTOSHOOT (secret benefits of sunless)</span>
                                 <div class="viewAll">
                                     <span class="viewAll__ico">
@@ -406,14 +407,16 @@
         Feedback
       </button>
       <form class="form">
-        <div class="form__item">
-          <input type="text" class="input" placeholder="Name" />
+        <div class="form__item ">
+          <input type="text" class="input" placeholder="Name" required />
+          <span class="input__required"></span>
+        </div>
+        <div class="form__item ">
+          <input type="text" class="input __tel" placeholder="Phone" required />
+          <span class="input__required"></span>
         </div>
         <div class="form__item">
-          <input type="text" class="input __tel" placeholder="Phone" />
-        </div>
-        <div class="form__item">
-          <input type="text" class="input" placeholder="Zip adress" />
+          <input type="text" class="input" placeholder="ZIP" />
         </div>
         <div class="form__item">
           <button data-popupId="popupRequset" class="btn-reset form__btn">
@@ -482,7 +485,7 @@
             </main>
             <footer class="footer _anim-items">
   <div class="container footer__container">
-    <a href="index.html" class="logo">
+    <a href="/" class="logo">
       <img
         src="img/logoTransparent.png"
         alt="logo"
@@ -536,7 +539,7 @@
         </a>
       </div>
     </div>
-    <div class="footer__designer">Made by <span>SOMA design</span></div>
+    <div class="footer__designer">Made by <a href='#'>SOMA design</a></div>
   </div>
 </footer>
  <div id="popupSale" class="popup popupSale">
@@ -562,14 +565,16 @@
       <span class="popupBookNow__title">Book now</span>
       <div class="popupBookNow__form">
         <form class="form">
-          <div class="form__item">
-            <input type="text" class="input" placeholder="Name" />
+          <div class="form__item ">
+            <input type="text" class="input" placeholder="Name" required />
+            <span class="input__required"></span>
+          </div>
+          <div class="form__item ">
+            <input type="text" class="input __tel" placeholder="Phone" required />
+            <span class="input__required"></span>
           </div>
           <div class="form__item">
-            <input type="text" class="input __tel" placeholder="Phone" />
-          </div>
-          <div class="form__item">
-            <input type="text" class="input" placeholder="Zip adress" />
+            <input type="text" class="input" placeholder="ZIP" />
           </div>
           <div class="form__item">
             <button data-popupId="popupRequset" class="btn-reset form__btn">
